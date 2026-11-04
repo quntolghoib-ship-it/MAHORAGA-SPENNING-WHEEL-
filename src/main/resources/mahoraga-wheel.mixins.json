@@ -2,7 +2,9 @@
   "required": true,
   "package": "com.quntolghoib.mahoraga.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": [],
+  "client": [
+  "InGameHudMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
