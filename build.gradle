@@ -27,3 +27,8 @@ processResources {
         expand 'version': project.version
     }
 }
+loom {
+    mixin {
+        defaultRefmapName = "mahoraga-wheel-refmap.json"
+    }
+}
