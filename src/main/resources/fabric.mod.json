@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "mahoraga_wheel",
+  "version": "${version}",
+  "name": "Mahoraga Spinning Wheel",
+  "description": "Replaces the Totem activation overlay with Mahoraga's spinning wheel.",
+  "authors": ["QuntoGhoib"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.quntolghoib.mahoraga.MahoragaWheelClient"
+    ]
+  },
+  "mixins": [
+    "mahoraga-wheel.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
